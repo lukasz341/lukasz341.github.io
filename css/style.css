@@ -1,5 +1,169 @@
-h1 {
-	text-align: center;
-	color: blue;
+@import url('https://fonts.googleapis.com/css?family=Nova+Round|Varela+Round');
+* {
+	box-sizing: border-box;	
+	font-family: 'Varela Round', sans-serif;
 	
 }
+
+body {
+	 margin: 0;
+	 padding: 0;
+
+	 font-family: 'Varela Round', sans-serif;
+	 
+	
+}
+
+.main {
+
+
+}
+
+.row:before,
+.row:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.row:after {
+    clear: both;
+}
+ 
+
+/*Grid*/
+
+ [class*='col-'] {
+	float: left;
+	Min-height: 1px;
+	margin: 0;
+	padding: 0;
+
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%; }
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+.nav {
+	
+	text-align: center;
+	background-color: #2098D4;
+	height: 95vh;
+	color: white;
+	
+}
+h1 {
+	margin: 0;
+	padding: 0;
+	padding-top: 15px;
+	margin-left: 5px;
+	text-align: center;
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+ul li {
+	list-style-type: none;	
+	
+	border: 1px solid white;
+	margin: 5px 25px 5px 0;
+	
+}
+
+ul li a {
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	transition: 0.3s;
+	
+}
+
+ul li a:hover, ul li a:visited, ul li a:active {
+	text-decoration: none;
+	color:white;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 20px;
+}
+
+.content {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	height: 95vh;
+	overflow: auto;
+	
+
+}
+.content h2 {
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1.5;
+	
+}
+
+.content p {
+	text-align: left;
+	padding: 10px;
+	margin: 20px;
+	border: 1px solid black;
+	border-radius: 2px;
+	-webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.2);
+box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.2);
+
+}
+.content:nth-child(2), .content:nth-child(3), .content:nth-child(4) {
+	display: none;
+}
+
+.fa {
+	margin-right: 10px;
+	color: yellow;
+}
+
+.content span {
+	margin-left: 20px;	
+}
+
+.content .fa {
+	color: black;
+	margin-right: 5px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+footer {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	background-color: #E9EBE0;
+	height: 5vh;
+}
+figure {
+	display: inline-block;
+	margin: 10px;
+	
+}
+
