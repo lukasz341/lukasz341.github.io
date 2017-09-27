@@ -109,8 +109,7 @@ ul li a:hover, ul li a:visited, ul li a:active {
 	padding: 0;
 	height: 95vh;
 	overflow: auto;
-	
-
+	background-color: 	#E8E8E8;
 }
 .content h2 {
 	color: black;
@@ -155,9 +154,10 @@ img {
 }
 
 footer {
+	text-align: left;
 	margin: 0;
 	padding: 10px;
-	text-align: center;
+	padding-left: 60px;
 	background-color: #E9EBE0;
 	height: 5vh;
 }
