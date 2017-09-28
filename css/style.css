@@ -166,4 +166,12 @@ figure {
 	margin: 10px;
 	
 }
+form {
+	text-align: left;
+	margin-left: 20px;
+}
+
+table, tr, td {
+	vertical-align: top;
+}
 
