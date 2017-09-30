@@ -4,6 +4,9 @@ var button1=document.getElementById("about");
 var button2=document.getElementById("skills");
 var button3=document.getElementById("portfolio");
 var button4=document.getElementById("contact");
+var button5=document.getElementById("portfolio-about");
+
+var submit=document.querySelector('input[type="submit"]');
 
 
 function changeContent(a,b,c,d) {
@@ -36,4 +39,25 @@ button4.addEventListener("click", function() {
     changeContent(3,0,1,2);
 });
 
+button5.addEventListener("click", function() {
+    changeContent(2,0,1,3);
+});
+
+function checkForm (){
+   var fieldValue = document.querySelector('input[name="imie"]').value;
+    
+   if (fieldValue.length == 0) {
+    alert('Nie wpisałeś żadnej wartości!');
+    }
+}
+    
+    
+  submit.addEventListener("click", checkForm);
+
+ 
+    
+      
+        
+        
+      
 

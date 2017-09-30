@@ -13,8 +13,6 @@
 </head>
 <body>
 
-
-
 <div class="row main">
 
 	<div class="col-4">
@@ -33,11 +31,12 @@
 	
 	<div class="col-8">
 		<div class="content">
+			<h2> O mnie </h2>
 			<p> Witam. Zajmuję się tworzeniem stron internetowych oraz systemów do zarządzania treścią opratych o Wordpress. Znam dobrze takie technologie jak HTML5, język CSS3 opisujący wygląd strony, RWD - technologię tworzenia responsywnych stron internetowych oraz język JavaScript, pozwalający na tworzenie interaktywnych stron internetowych. Potrafię również tworzyć proste programy okienkowe korzystając z narzędzia Lazarus i języka object pascal. W zakładce <a href="#content-portfolio" id="portfolio-about">"Portfolio" </a>można zobaczyć moje projekty. Obecnie szukam pracy jako Front-End Developer.  </p>
 		</div>
 		
 		<div class="content">
-			
+			<h2> Umiejętnościi </h2>
 			<div class="skills"> 
       			<h3> HTML</h3>
       			<figure>
@@ -78,29 +77,27 @@
 		</div>
 		
 		<div class="content">
-			
+			<h2> Portfolio </h2>
 			<div>
 				<figure>
-					<figcaption><h3> Picture perfect</h3></figcaption>
         			<a href="https://lukasz341.github.io/Project3/" target="_blank"><img src="images/Projekt1.png" alt="Projekt 1"></a>
-        			
+        			<figcaption> Projekt 1</figcaption>
 				</figure> 
 
 			</div>
 
 			<div>
 				<figure>
-					<figcaption> <h3>Multi purpose template</h3></figcaption>
         			<a href="https://lukasz341.github.io/Project3/" target="_blank"><img src="images/Projekt2.png" alt="Projekt 2"> </a>
+        			<figcaption> Projekt 2</figcaption>
       			</figure> 
 
 			</div>
 
 			<div>
 				<figure>
-					<figcaption> <h3>Your life, a photo</h3></figcaption>
         			<a href="https://lukasz341.github.io/Project3/" target="_blank"><img src="images/Projekt3.png" alt="Projekt 3"></a>
-        			
+        			<figcaption> Projekt 3</figcaption>
       			</figure> 
 
 			</div>
@@ -127,7 +124,6 @@
   				</table>
 			</form> 
 
-			
 		</div>
 	</div>
 </div>

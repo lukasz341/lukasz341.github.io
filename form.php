@@ -1,9 +1,11 @@
 <? 
 extract($_POST);
-if (mail($email, "temat", $wiadomosc)) {
-echo "mail wyslany";
+$headers=$email." Imię: ".$imie;
+if (mail("kaleta.lukasz@gmail.com", "Od webdeveloper.cal24.pl", $wiadomosc, $headers)) {
+    echo "mail wyslany";
 }
 else {
- echo "mail nie został wysłany";
+    echo "mail nie został wysłany";
 }
 ?> 
+
