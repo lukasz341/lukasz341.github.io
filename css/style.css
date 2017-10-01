@@ -164,7 +164,7 @@ footer {
 }
 figure {
 	display: inline-block;
-	margin: 10px;
+	margin: 0px;
 	
 }
 form {
@@ -174,5 +174,26 @@ form {
 
 table, tr, td {
 	vertical-align: top;
+}
+
+.portfolio {
+	position: relative;
+	margin: 10px;
+}
+
+.layer {
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: white;
+	display: none;
+	width: 100%;
+	Height: 100%;
+	opacity: 0.5;
+}
+
+.portfolio:hover .layer {
+	display: block;
+	cursor: pointer;
 }
 
