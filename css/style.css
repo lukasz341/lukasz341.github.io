@@ -179,6 +179,7 @@ table, tr, td {
 .portfolio {
 	position: relative;
 	margin: 10px;
+	border: 5px solid white;
 }
 
 .layer {
@@ -194,6 +195,22 @@ table, tr, td {
 
 .portfolio:hover .layer {
 	display: block;
-	cursor: pointer;
+	
 }
 
+.layer h3 {
+	margin-top: 10%;
+}
+
+.layer a {
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	background-color: green;
+	border: 2px solid black;
+}
+
+.layer a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
