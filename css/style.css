@@ -54,12 +54,16 @@ body {
 
 
 .nav {
-	
+	padding-top: 10px;
 	text-align: center;
 	background-color: #2098D4;
 	height: 95vh;
 	color: white;
 	
+}
+
+.myphoto img{
+	border: 1px solid white;
 }
 h1 {
 	margin: 0;
