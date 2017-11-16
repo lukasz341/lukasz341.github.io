@@ -179,35 +179,40 @@ table, tr, td {
 .portfolio {
 	position: relative;
 	margin: 10px;
-	border: 5px solid white;
+	border: 3px solid white;
 }
 
 .layer {
 	top: 0;
 	left: 0;
 	position: absolute;
-	background-color: white;
-	display: none;
+	background-color: rgba(255,255,255, 0.5);
+	//display: none;
 	width: 100%;
 	Height: 100%;
-	opacity: 0.5;
+	padding-top: 20%;
+	opacity: 0;
+	transition: 0.3s;
 }
 
 .portfolio:hover .layer {
-	display: block;
+	//display: block;
+	cursor: pointer;
+	opacity: 1;
+	transition: 0.3s;
 	
 }
 
 .layer h3 {
-	margin-top: 10%;
+	
 }
 
 .layer a {
 	text-decoration: none;
-	color: black;
-	padding: 5px;
-	background-color: green;
-	border: 2px solid black;
+	color: white;
+	padding: 10px;
+	background-color: #2098D4;
+	border: 1px solid black;
 }
 
 .layer a:hover {
