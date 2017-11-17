@@ -54,7 +54,7 @@ body {
 
 
 .nav {
-	padding-top: 10px;
+	padding: 10px 0 10px 0;
 	text-align: center;
 	background-color: #2098D4;
 	height: 95vh;
@@ -191,7 +191,7 @@ table, tr, td {
 	left: 0;
 	position: absolute;
 	background-color: rgba(255,255,255, 0.5);
-	//display: none;
+	
 	width: 100%;
 	Height: 100%;
 	padding-top: 20%;
@@ -200,7 +200,7 @@ table, tr, td {
 }
 
 .portfolio:hover .layer {
-	//display: block;
+	
 	cursor: pointer;
 	opacity: 1;
 	transition: 0.3s;
@@ -222,4 +222,19 @@ table, tr, td {
 .layer a:hover {
 	text-decoration: underline;
 	cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+	}
+	
+	.nav {
+		height: auto;
+	}
+
+	footer {
+		height: auto;
+	}
 }
