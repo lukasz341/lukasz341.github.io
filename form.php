@@ -7,5 +7,9 @@ if (mail("kaleta.lukasz@gmail.com", "Od webdeveloper.cal24.pl", $wiadomosc, $hea
 else {
     echo "mail nie został wysłany";
 }
+
+if ($imie=='') {
+    echo "mail nie wysłany";
+}
 ?> 
 

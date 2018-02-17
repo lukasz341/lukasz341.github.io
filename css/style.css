@@ -56,12 +56,29 @@ body {
 .nav {
 	padding: 10px 0 10px 0;
 	text-align: center;
-	background-color: #2098D4;
+	
+	background-color: rgba(31, 32, 32, 0.8);
 	height: 95vh;
 	color: white;
-	
+	position: relative;	
 }
 
+.nav-background {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/background.jpeg');
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+}
+
+.skills img {
+	width: 100px;
+	height: 100px;
+}
 .myphoto img{
 	border: 1px solid white;
 }
@@ -124,19 +141,31 @@ ul li a:hover, ul li a:visited, ul li a:active {
 }
 
 .content p {
-	font-size: 18px;
-	text-align: justify;
+	font-size: 20px;
+	text-align: left;
 	padding: 10px;
 	margin: 20px;
-	//border: 1px solid black;
-	//border-radius: 2px;
-	
 	line-height: 1.5;
-
-
 }
 .content:nth-child(2), .content:nth-child(3), .content:nth-child(4) {
 	display: none;
+}
+
+.about {
+	position: relative;
+	background-image: url('../images/about.jpeg');
+	background-position: center;
+	margin: 10px;
+	
+}
+
+.content-about {
+	
+}
+
+.about-layer {
+	background-color: rgba(255, 255, 255, 0.95);
+		
 }
 
 .fa {
@@ -159,11 +188,11 @@ img {
 }
 
 footer {
-	text-align: left;
+	text-align: center;
 	margin: 0;
 	padding: 10px;
-	padding-left: 60px;
-	background-color: #E9EBE0;
+	
+	background-color: white;
 	height: 5vh;
 }
 figure {
@@ -184,6 +213,15 @@ table, tr, td {
 	position: relative;
 	margin: 10px;
 	border: 3px solid white;
+}
+
+#portfolio-about {
+	color: black;
+	text-decoration: none;
+}
+
+#portfolio-about:hover {
+	color: blue;
 }
 
 .layer {
@@ -215,12 +253,23 @@ table, tr, td {
 	text-decoration: none;
 	color: white;
 	padding: 10px;
-	background-color: #2098D4;
+	background-color: rgba(31, 32, 32, 0.8);
 	border: 1px solid black;
 }
 
 .layer a:hover {
 	text-decoration: underline;
+	cursor: pointer;
+}
+
+figure {
+
+	margin: 10px;
+}
+
+
+#submit {
+	padding: 5px;
 	cursor: pointer;
 }
 
