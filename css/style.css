@@ -153,18 +153,20 @@ ul li a:hover, ul li a:visited, ul li a:active {
 
 .about {
 	position: relative;
-	background-image: url('../images/about.jpeg');
+	//background-image: url('../images/ht.jpeg');
 	background-position: center;
 	margin: 10px;
 	
 }
 
 .content-about {
-	
+	//background-color:black;
+	background-image: url('../images/ht.jpeg');
 }
 
 .about-layer {
-	background-color: rgba(255, 255, 255, 0.95);
+	background-color: rgba(255, 255, 255, 0.8);
+	
 		
 }
 
