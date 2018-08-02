@@ -205,7 +205,6 @@ figure {
 form {
 	text-align: left;
 	margin-left: 20px;
-	max-width: 100%;
 }
 
 table, tr, td {
@@ -289,6 +288,10 @@ figure {
 	border: 1px solid black;
 }
 
+textarea {
+	min-width: 300px;
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
@@ -302,4 +305,6 @@ figure {
 	footer {
 		height: auto;
 	}
+
+
 }
