@@ -73,6 +73,8 @@ body {
 	background-position: center;
 	background-size: cover;
 	z-index: -1;
+	background-attachment: fixed;
+	
 }
 
 .skills img {
@@ -302,7 +304,12 @@ label, #hamburger-menu {
 	}
 	
 	.nav {
-		height: auto;
+		height: 100%;
+	}
+
+	.nav-background {
+		height: 150%;
+		background-size: cover;
 	}
 
 	footer {
@@ -314,7 +321,9 @@ label, #hamburger-menu {
 		font-size: 30px;
 		
 	}
-
+	textarea {
+		min-width: 100%;
+	}
 	#hamburger-menu ~ul {
 		display: none
 	}
