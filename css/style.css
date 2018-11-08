@@ -11,7 +11,6 @@ body {
 	 padding: 0;
 
 	 font-family: 'Open Sans', sans-serif;
-	 
 	
 }
 
@@ -297,28 +296,59 @@ textarea {
 label, #hamburger-menu {
 	display: none;
 }
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
 	}
-	
+	h1 {
+		font-size: 15px;
+		padding-top: 0px;
+		margin-left: 5px;
+		
+	}
+
 	.nav {
 		height: 100%;
 	}
 
+	.nav p {
+		font-size: 12px;
+		margin: 5px;
+		padding: 0;
+	}
+
 	.nav-background {
-		height: 150%;
+		height: 100%;
 		background-size: cover;
 	}
 
+	.nav img {
+		max-width: 30px;
+		height: auto;
+	}
+
+	ul li a {
+		font-size: 12px;
+		padding: 5px;
+	}
+
+	ul li a:hover {
+		font-size: 15px;
+	}
+	.about-layer p {
+		font-size: 14px;
+}
 	footer {
 		height: auto;
 	}
 
 	label {
 		display: block;
-		font-size: 30px;
+		font-size: 25px;
+		margin: 0;
+		padding: 0;
 		
 	}
 	textarea {
