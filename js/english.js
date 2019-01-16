@@ -50,15 +50,15 @@ function checkForm (e){
    
    if (nameValue.length == 0) {
     e.preventDefault();
-    alert('Nie wpisałeś imienia');
+    alert('put your name');
     }
     if (emailValue.length == 0) {
         e.preventDefault();
-        alert('Nie wpisałeś email');
+        alert('put your email');
         }
     if (messageValue.length == 0) {
         e.preventDefault();
-        alert('Nie wpisałeś wiadomości');
+        alert('put your message');
         }
 }
     

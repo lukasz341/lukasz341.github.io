@@ -23,7 +23,7 @@
 			
 			<h1> Łukasz Kaleta </h1>
 			<p> front-end webdeveloper</p>
-			<label for="hamburger-menu"> ≡ </label>
+			<label for="hamburger-menu"> menu ≡ </label>
 			<input type="checkbox" id="hamburger-menu"> </input>
 			<ul>
 				<li><a href="#" id="about"><i class="fa fa-user-o" aria-hidden="true"></i> O mnie </a></li>
@@ -46,7 +46,7 @@
 			
 				<div class="about-layer">
 					<p> Witam! </p>
-					<p>Zajmuję się tworzeniem stron internetowych oraz systemów do zarządzania treścią opratych o Wordpress. Znam dobrze takie technologie jak HTML5, język CSS3 opisujący wygląd strony, RWD - technologię tworzenia responsywnych stron internetowych oraz język JavaScript, pozwalający na tworzenie interaktywnych stron internetowych. Potrafię również tworzyć proste programy okienkowe korzystając z narzędzia Lazarus i języka object pascal. </p>
+					<p>Zajmuję się tworzeniem stron internetowych oraz systemów do zarządzania treścią opratych o Wordpress. Znam dobrze takie technologie jak HTML5, język CSS3 opisujący wygląd strony, RWD - technologię tworzenia responsywnych stron internetowych oraz język JavaScript, pozwalający na tworzenie interaktywnych stron internetowych. Posiadam ponad 2 lata doświadczenia komercyjnego jako tester oprogramowania i programista. </p>
 					<p>W zakładce <a href="#content-portfolio" id="portfolio-about">"Portfolio" </a>można zobaczyć moje projekty. </p>
 				</div>
 			</div>
@@ -66,9 +66,9 @@
       			</figure> 
       			<figure>
         			<img src="images/sass.png" alt="sass">
-        			<figcaption> SASS</figcaption>
       			</figure>
       			<figure>
+        			<figcaption> SASS</figcaption>
         			<img src="images/bootstrap.png" alt="bootstrap">
         			<figcaption> Bootstrap</figcaption>
       			</figure>
@@ -232,13 +232,14 @@
 			 	<h3>Formularz kontaktowy</h3>
 			 	<table>
 			 		<tr>
-  						<td>Imię: </td><td><input type="text" name="imie"></td>
+  						<td>Imię: </td><td><input type="text" name="imie" id="name" placeholder="Podaj imię"></td>
   					</tr>
   					<tr>
-  						<td>Twój email:</td><td><input type="text" name="email"></td>
+  						<td>Twój email:</td><td><input type="text"  pattern="[^ @]*@[^ @]*"
+							required name="email" id="email" placeholder="Podaj email"></td>
   					</tr>
   					<tr>
-  				<td>Wiadomość:</td><td><textarea rows="4"  name="wiadomosc"></textarea></td>
+  				<td>Wiadomość:</td><td><textarea rows="4"  name="wiadomosc" id="message" placeholder="Wpisz wiadomość"></textarea></td>
   				</tr>
   				<tr>
   					<td></td><td><input type="submit" value="WYŚLIJ" id="submit"></td>
