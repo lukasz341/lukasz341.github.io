@@ -15,19 +15,25 @@ function changeContent(a,b,c,d) {
 	content[b].style.display="none";
 	content[c].style.display="none";
 	content[d].style.display="none";
-	
-
+    
+   /* content[a].style.opacity=1;
+	content[b].style.opacity=0;
+	content[c].style.opacity=0;
+	content[d].style.opacity=0;
+*/
 }
+//alert ("test");
+
+setTimeout(changeContent(0,1,2,3),4000);
 
 //window.setInterval("changeContent(0,1,2,3)", 1000);
 
-button1.addEventListener("click", function() {
-	
-    changeContent(0,1,2,3);
+button1.addEventListener("click", function(){
+changeContent(0,1,2,3);
+
 });
 
-button2.addEventListener("click", function() {
-	
+button2.addEventListener("click", function() {	
     changeContent(1,0,2,3);
 });
 
